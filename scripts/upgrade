@@ -136,7 +136,7 @@ ynh_remove_extra_repo --name="$app" # backward compat
 # apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys CB2DE8E5
 
 # ynh_remove_app_dependencies
-ynh_install_extra_app_dependencies --repo="https://download.onlyoffice.com/repo/debian squeeze main" --package="onlyoffice-documentserver" --key="https://download.onlyoffice.com/GPG-KEY-ONLYOFFICE"
+ynh_install_extra_app_dependencies --repo="https://download.onlyoffice.com/repo/debian squeeze main" --package="onlyoffice-documentserver-ee" --key="https://download.onlyoffice.com/GPG-KEY-ONLYOFFICE"
 
 
 #=================================================
